@@ -63,6 +63,7 @@ public final class Scacchiera extends JFrame {
 		});
 		setSize(new Dimension(FINESTRAX, FINESTRAY)); 
 		setLocationRelativeTo(null);
+		setResizable(false);
 		scacchiModel = new ScacchiModel();
 		scacchiController = new ScacchiController(scacchiModel);
 		inizializzazioneScacchiera(true);
