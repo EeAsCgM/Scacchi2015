@@ -43,7 +43,7 @@ public final class Scacchiera extends JFrame {
 	}
 
 	public Scacchiera() {
-		super("Chess");
+		super("Gioco degli Scacchi");
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) { 
